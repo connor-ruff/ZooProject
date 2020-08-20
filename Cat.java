@@ -1,6 +1,7 @@
 public class Cat extends Mammal {
 
     // Properties
+    String colorPattern;
 
 
 
