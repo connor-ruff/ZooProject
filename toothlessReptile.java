@@ -1,7 +1,8 @@
 public class toothlessReptile extends Reptile {
 
     // Properties
-
+    boolean swallowWhole;
+    String dangerLevel;
 
 
     // Methods

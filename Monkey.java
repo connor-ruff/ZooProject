@@ -1,6 +1,8 @@
 public class Monkey extends Mammal {
 
     // Properties
+    boolean tail;
+    boolean bipedal;
 
 
 

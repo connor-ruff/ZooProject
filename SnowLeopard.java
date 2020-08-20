@@ -1,6 +1,7 @@
 public class SnowLeopard extends Cat {
 
     // Properties
+    float furThickness;
 
 
 
