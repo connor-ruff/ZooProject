@@ -8,6 +8,16 @@ public class SnowLeopard extends Cat {
     // Methods
     // constructor
     // access
-    // set
+	public float getfurThickness(){
+		return this.furThickness;
+	}
 
+    // set
+	public void setfurThickness(float furIn){
+		this.furThickness = furIn ;
+	}
+
+	public void printSubDetails(){
+		System.out.println("This will need to be changed");
+	}
 }

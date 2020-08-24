@@ -7,8 +7,17 @@ public class Cat extends Mammal {
 
     // Methods
     // constructor
+	
     // access
+	public String getcolorPattern(){
+		return this.colorPattern;
+	}
+
     // set
+	public void setcolorPattern(String colorIn){
+		this.colorPattern = colorIn ;
+	}
+
     // print
     public void printSubDetails() { System.out.println(name + " has " + colorPattern + " color pattern."); }
 

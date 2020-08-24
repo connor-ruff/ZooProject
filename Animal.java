@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     // Properties
     String conservationStat;
@@ -13,6 +13,8 @@ public class Animal {
 
     // Methods
     // constructor
+	public Animal(){
+	}
     public Animal (String cons_in, String name_in, int age_in, String habitat_in, String health_in, String spec_in, String diet_in, String desc_in) {
     
         conservationStat = cons_in;
@@ -64,6 +66,6 @@ public class Animal {
 
 
     // other
-    void final livesAtZoo() { System.out.println(name + " lives at the zoo!"); }
+    public final void livesAtZoo() { System.out.println(name + " lives at the zoo!"); }
 
 }

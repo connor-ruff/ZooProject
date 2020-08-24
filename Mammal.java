@@ -9,7 +9,19 @@ public class Mammal extends Animal {
     // Methods
     // constructor
     // access
+	public String getamtFur(){ return this.amtFur;	}
+
+	public int getlitterSize(){   return this.litterSize; }
+
     // set
+	public void setamtFur(String amtFurIn) {
+		this.amtFur = amtFurIn;
+	}
+
+	public void setlitterSize(int litterIn){
+		this.litterSize = litterIn;
+	}
+	
 
     // print
     public void printSubDetails() {
