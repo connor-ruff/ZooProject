@@ -7,6 +7,8 @@ public class SnowLeopard extends Cat {
 
     // Methods
     // constructor
+	public SnowLeopard(){}	
+
     // access
 	public float getfurThickness(){
 		return this.furThickness;
@@ -18,6 +20,6 @@ public class SnowLeopard extends Cat {
 	}
 
 	public void printSubDetails(){
-		System.out.println("This will need to be changed");
+		System.out.println("TBD");
 	}
 }

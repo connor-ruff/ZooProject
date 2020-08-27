@@ -7,6 +7,7 @@ public class Cat extends Mammal {
 
     // Methods
     // constructor
+	public Cat(){}
 	
     // access
 	public String getcolorPattern(){
@@ -19,7 +20,7 @@ public class Cat extends Mammal {
 	}
 
     // print
-    public void printSubDetails() { System.out.println(name + " has " + colorPattern + " color pattern."); }
+    public void printSubDetails() { System.out.println(this.getName() + " has " + this.getcolorPattern() + " color pattern."); }
 
     // other
     public void isTerritorial() { System.out.println("Cats are generally very territorial."); }

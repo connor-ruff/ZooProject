@@ -43,7 +43,8 @@ public abstract class Animal {
     void setHealthStat(String health_in) { healthStat = health_in; }
     void setDiet(String diet_in) { diet = diet_in; }
     void setDesc(String desc_in) { desc = desc_in; }
-
+	void setName(String name_in) { this.name = name_in; }
+	void setSpecies(String spec_in) { this.species = spec_in; }
 
     // prints
     public final void printDesc() {
