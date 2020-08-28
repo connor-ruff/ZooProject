@@ -7,9 +7,30 @@ public class toothlessReptile extends Reptile {
 
     // Methods
     // constructor
+    public toothlessReptile(String cons_in, String name_in, String habitat_in, String health_in, String spec_in, String diet_in, String desc_in, boolean legs_in, boolean feet_in, boolean swallowWhole_in, String dangerLevel_in){
+		super(cons_in, name_in, habitat_in, spec_in, diet_in, desc_in, legs_in, feet_in);
+		this.swallowWhole = swallowWhole_in; 
+		this.dangerLevel = dangerLevel_in;
+	}		
+
     // access
+	public boolean getswallowWHole(){
+		return this.swallowWhole;
+	}
+	
+	public boolean getdangerLevel(){
+		return this.dangerlevel;
+	}
     // set
+	public void setswallowWhole( boolean sw ){
+		this.swallowWhole = sw;
+	}
+
+	public void setdangerLevel( boolean dl){
+		this.dangerLevel = dl;
+	}
     // print
+	
     public void printSubDetails() {
         // swallow whole
         if (swallowWhole) {
@@ -26,4 +47,4 @@ public class toothlessReptile extends Reptile {
     // other
     public void isLoner() { System.out.println("Most toothless reptiles live on their own."); }
 
-}
+}/Users/Cait/ZooProject 
