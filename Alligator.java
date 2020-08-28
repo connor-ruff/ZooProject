@@ -9,7 +9,7 @@ public class Alligator extends toothedReptile {
     // constructor
 	public Alligator(String name_in){
 
-		super("Not Threatened", name_in, "Swamps", "Healthy", "Alligator", "Omnivorous", "This alligator loves laying in the sun ", true , true, "Sharp", 80, false);
+		super("Not Threatened", name_in, "Swamps", "Healthy", "Alligator", "Omnivorous", "This alligator loves laying in the sun ", true , false, "Sharp", 80, false);
 		this.setskinColor("Green");
 		this.setsnoutShape("Pointed");
 	}
