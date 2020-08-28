@@ -8,7 +8,11 @@ public class Mammal extends Animal {
 
     // Methods
     // constructor
-	public Mammal(){}
+	public Mammal(String cons_in, String name_in, String habitat_in, String health_in, String spec_in, String diet_in, String desc_in, String af_in, int ls_in){
+		super(cons_in, name_in, 0, habitat_in, health_in, spec_in, diet_in, desc_in);
+		this.amtFur = af_in;
+		this.litterSize = ls_in;
+	}
 	
     // access
 	public String getamtFur(){ return this.amtFur;	}
@@ -34,6 +38,6 @@ public class Mammal extends Animal {
 
     // other
     public void warmBlooded() {System.out.println(this.getName() + " is warm blooded."); }
-    public void hasHair() {System.out.println(this.getName() + " is has hair because they are a mammal."); }
+    public void hasHair() {System.out.println(this.getName() + " has hair because they are a mammal."); }
 
 }
