@@ -8,8 +8,28 @@ public class Monkey extends Mammal {
 
     // Methods
     // constructor
+	public Monkey(String name_in){
+		super("Not Threatened", name_in, "The Jungle", "Healthy", "Monkey", "Omnivores", "This monkey has lots of energy and loves practical jokes", "Light", 1);
+		this.tail = true;
+		this.bipedal = true;
+	}
+
     // access
-    // set
+	public boolean getTail(){
+		return this.tail;
+	}
+	public boolean getBipedal(){
+		return this.bipedal;
+	}
+
+	// set
+	public void setTail(boolean t){
+		this.tail = t;
+	}
+	public void setBipedal(boolean b){
+		this.bipedal = b;
+	}
+	
     // print
     public void printSubDetails() {
         // tail

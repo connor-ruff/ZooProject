@@ -7,7 +7,10 @@ public class Cat extends Mammal {
 
     // Methods
     // constructor
-	public Cat(){}
+	public Cat(String cons_in, String name_in, String habitat_in, String health_in, String spec_in, String diet_in, String desc_in, String af_in, int ls_in, String pat_in){
+		super(cons_in, name_in, habitat_in, health_in, spec_in, diet_in, desc_in, af_in, ls_in);
+		this.colorPattern = pat_in;
+	}
 	
     // access
 	public String getcolorPattern(){
