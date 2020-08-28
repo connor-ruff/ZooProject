@@ -3,7 +3,7 @@ public class Parrot extends flyingBird {
     // Properties
     boolean identicalMate;
     boolean isTropical;
-    integer knownWords;
+    int knownWords;
 
 
     // Methods
@@ -18,12 +18,12 @@ public class Parrot extends flyingBird {
     // access
     boolean getMate() { return this.identicalMate; }
     boolean getTrop() { return this.isTropical; }
-    integer getWords() { return this.knownWords; }
+    int getWords() { return this.knownWords; }
 
     // set
     void setMate(boolean mate_in) { this.identicalMate = mate_in; }
     void setTrop(boolean trop_in) { this.isTropical = trop_in; }
-    void setWords(integer word_in) { this.knownWords = word_in; }
+    void setWords(int word_in) { this.knownWords = word_in; }
 
     // print
     public void printSubDetails() {
@@ -35,5 +35,6 @@ public class Parrot extends flyingBird {
         if (isTropical) {
             System.out.println(this.getName() + " is a tropical parrot.");
         }
+	}
 
 }

@@ -15,7 +15,7 @@ public class flightlessBird extends Bird {
     String getTrans() { return this.transportMethod; }
     
     // set
-    void setTrans(trans_in) { this.transportMethod = trans_in; }
+    void setTrans(String trans_in) { this.transportMethod = trans_in; }
     
     // print
     public void printSubDetails() { System.out.println(name + " gets around by: " + transportMethod); }

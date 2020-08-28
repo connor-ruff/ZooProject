@@ -7,10 +7,10 @@ public class Penguin extends flightlessBird {
 
     // Methods
     // constructor
-    public Penguin(name_in) {
+    public Penguin(String name_in) {
         super("Not Threatened", name_in, "North Pole", "Healthy", "Penguin", "Fish", "She loves penguin sledding!", 6.2, true, true, "Narrow", "Swimming");
-        this.swimmingSpeed = 15.3;
-        this.timeUnderwater = 4.3;
+        this.swimmingSpeed = (float)15.3;
+        this.timeUnderwater = (float)4.3;
     }
     
     // access
@@ -18,14 +18,15 @@ public class Penguin extends flightlessBird {
     float getTime() { return this.timeUnderwater; }
     
     // set
-    void setSpeed(sp_in) { this.swimmingSpeed = sp_in; }
-    void setTime(tm_in) { this.timeUnderwater = tm_in; }
+    void setSpeed(float sp_in) { this.swimmingSpeed = sp_in; }
+    void setTime(float tm_in) { this.timeUnderwater = tm_in; }
 
 
     // print
     public void printSubDetails() {
         System.out.println(this.getName() + " can swim up to " + this.swimmingSpeed + " mph.");
         System.out.println(this.getName() + " can stay underwater up to " + this.timeUnderwater + " minutes.");
+	}
     
     // other
     public void carriesEgg() { 
