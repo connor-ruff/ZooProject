@@ -21,6 +21,8 @@ public class flightlessBird extends Bird {
     public void printSubDetails() { System.out.println(name + " gets around by: " + transportMethod); }
     
     // others
-    public void hasKeel() { System.out.println("Some flightless birds do not have their Keel bone as it is not being used for flight."); }
+    public void hasKeel() { 
+        System.out.println("Some flightless birds do not have their Keel bone as it is not being used for flight."); 
+    }
 
 }

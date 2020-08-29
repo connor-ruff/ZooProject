@@ -6,31 +6,22 @@ public class toothlessReptile extends Reptile {
 
 
     // Methods
-    // constructor
+    // Constructor
     public toothlessReptile(String cons_in, String name_in, String habitat_in, String health_in, String spec_in, String diet_in, String desc_in, boolean legs_in, boolean feet_in, boolean swallowWhole_in, String dangerLevel_in){
 		super(cons_in, name_in, habitat_in, health_in, spec_in, diet_in, desc_in, legs_in, feet_in);
 		this.swallowWhole = swallowWhole_in; 
 		this.dangerLevel = dangerLevel_in;
 	}		
 
-    // access
-	public boolean getswallowWHole(){
-		return this.swallowWhole;
-	}
-	
-	public String getdangerLevel(){
-		return this.dangerLevel;
-	}
-    // set
-	public void setswallowWhole( boolean sw ){
-		this.swallowWhole = sw;
-	}
-
-	public void setdangerLevel( String dl){
-		this.dangerLevel = dl;
-	}
-    // print
-	
+    // Get
+	public boolean getswallowWHole(){ return this.swallowWhole; }
+	public String getdangerLevel(){ return this.dangerLevel; }
+    
+    // Set
+	public void setswallowWhole( boolean sw ){ this.swallowWhole = sw; }
+	public void setdangerLevel( String dl){ this.dangerLevel = dl; }
+    
+    // Print
     public void printSubDetails() {
         // swallow whole
         if (swallowWhole) {
@@ -44,7 +35,7 @@ public class toothlessReptile extends Reptile {
         System.out.println(name + "'s danger level is: " + dangerLevel);
     }
 
-    // other
+    // Other
     public void isLoner() { System.out.println("Most toothless reptiles live on their own."); }
 
 } 

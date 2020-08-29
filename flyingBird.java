@@ -51,7 +51,7 @@ public class flyingBird extends Bird {
         }
 
         // flight speed
-        System.out.println(name + "'s flight speed is: " + flightSpeed); 
+        System.out.println(name + "'s flight speed is: " + flightSpeed + " mph."); 
     }
 
     // others

@@ -9,7 +9,7 @@ public class Parrot extends flyingBird {
     // Methods
     // constructor
     public Parrot(String name_in) {
-        super("Not Threatened", name_in, "Trees", "Healthy", "Parrot", "Herbivore", "He really wants a cracker", 8.3, true, true, "Narrow", true, true, 15, false);
+        super("Not Threatened", name_in, "Trees", "Healthy", "Parrot", "Herbivore", "He really wants a cracker.", 8.3, true, true, "Narrow", true, true, 15, false);
         this.identicalMate = true;
         this.isTropical = true;
         this.knownWords = 8;
